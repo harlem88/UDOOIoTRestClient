@@ -1,0 +1,476 @@
+{
+  "username": "test",
+  "companyGW": [
+    {
+      "company": "591ac2aea3e3875cfa61c87e",
+      "gateways": [
+        {
+          "_id": "591eca3d5c24c0f2bd8d90f5",
+          "gateway_id": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+          "__v": 0,
+          "board_id": "d2241d4e315c552",
+          "company": "wkY912YVMS",
+          "displayName": "udooneo",
+          "productType": "UDOO Neo Full",
+          "oauth_secret": "x2BD3ReSAlS8bQH7O0xTjtVCuo3QThU4zpg0kpgN8j",
+          "nodes": [
+            {
+              "interval_time": 30000,
+              "address": "ttyMCC",
+              "product_type": "arduino",
+              "display_name": "arduino neo",
+              "id": "ttyMCC",
+              "_id": "591eca78a075982d97eaae6e",
+              "actuators": [
+                {
+                  "_id": "592304c001135b43f636a24a",
+                  "actuator_id": "2",
+                  "actuator_type": "digital",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "ttyMCC",
+                  "__v": 0,
+                  "icon": "fa fa-microchip ",
+                  "display_name": "prova_digital_2",
+                  "last_write": {
+                    "value": []
+                  }
+                }
+              ],
+              "sensors": [
+                {
+                  "_id": "592303df01135b43f63699a1",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "ttyMCC",
+                  "sensor_id": "2",
+                  "sensor_type": "analog",
+                  "__v": 0,
+                  "icon": "fa fa-microchip ",
+                  "display_name": "prova_analog_1",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:29.183Z",
+                    "value": [
+                      730
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "unit": "n/a",
+                      "desc": "value",
+                      "_id": "592303df4d03cb69ab41960a"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "interval_time": 5000,
+              "address": "127.0.0.1",
+              "product_type": "neo",
+              "display_name": "neo-gw",
+              "id": "neo-gw",
+              "_id": "591eca7da075982d97eaae7c",
+              "actuators": [],
+              "sensors": [
+                {
+                  "_id": "591eca7d5c24c0f2bd8d9354",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "neo-gw",
+                  "sensor_id": "0x1E0",
+                  "sensor_type": "motion",
+                  "__v": 0,
+                  "display_name": "accelerometer",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:40.544Z",
+                    "value": [
+                      5372,
+                      -1232,
+                      -15168
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "x",
+                      "unit": "m/s^2",
+                      "_id": "5923f41954ec2e135870542a"
+                    },
+                    {
+                      "desc": "y",
+                      "unit": "m/s^2",
+                      "_id": "5923f41954ec2e1358705429"
+                    },
+                    {
+                      "desc": "z",
+                      "unit": "m/s^2",
+                      "_id": "5923f41954ec2e1358705428"
+                    }
+                  ]
+                },
+                {
+                  "_id": "591eca7d5c24c0f2bd8d9355",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "neo-gw",
+                  "sensor_id": "1-0048",
+                  "sensor_type": "i2c",
+                  "__v": 0,
+                  "display_name": "TMP75B",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:40.559Z",
+                    "value": [
+                      27
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "temperature",
+                      "unit": "°C",
+                      "_id": "5923f41954ec2e1358705422"
+                    }
+                  ]
+                },
+                {
+                  "_id": "591eca7d5c24c0f2bd8d9357",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "neo-gw",
+                  "sensor_id": "0x1E1",
+                  "sensor_type": "motion",
+                  "__v": 0,
+                  "display_name": "magnetometer",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:40.558Z",
+                    "value": [
+                      -625,
+                      -354,
+                      770
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "x",
+                      "unit": "uT",
+                      "_id": "5923f41954ec2e135870542d"
+                    },
+                    {
+                      "desc": "y",
+                      "unit": "uT",
+                      "_id": "5923f41954ec2e135870542c"
+                    },
+                    {
+                      "desc": "z",
+                      "unit": "uT",
+                      "_id": "5923f41954ec2e135870542b"
+                    }
+                  ]
+                },
+                {
+                  "_id": "591eca7d5c24c0f2bd8d9356",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "neo-gw",
+                  "sensor_id": "0x01",
+                  "sensor_type": "os-info",
+                  "__v": 0,
+                  "display_name": "OS Info",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:37.984Z",
+                    "value": [
+                      40.04,
+                      62935,
+                      200.29
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "memory used",
+                      "unit": "% mem",
+                      "_id": "5923f41954ec2e1358705427"
+                    },
+                    {
+                      "desc": "uptime",
+                      "unit": "s",
+                      "_id": "5923f41954ec2e1358705426"
+                    },
+                    {
+                      "desc": "load average",
+                      "unit": "% avg",
+                      "_id": "5923f41954ec2e1358705425"
+                    }
+                  ]
+                },
+                {
+                  "_id": "591eca7d5c24c0f2bd8d9359",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "neo-gw",
+                  "sensor_id": "0x20",
+                  "sensor_type": "motion",
+                  "__v": 0,
+                  "display_name": "gyroscope",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:38.000Z",
+                    "value": [
+                      -7,
+                      -57,
+                      3
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "x",
+                      "unit": "rad/s",
+                      "_id": "5923f41954ec2e1358705430"
+                    },
+                    {
+                      "desc": "y",
+                      "unit": "rad/s",
+                      "_id": "5923f41954ec2e135870542f"
+                    },
+                    {
+                      "desc": "z",
+                      "unit": "rad/s",
+                      "_id": "5923f41954ec2e135870542e"
+                    }
+                  ]
+                },
+                {
+                  "_id": "592306b801135b43f636b41e",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "neo-gw",
+                  "sensor_id": "1-0060",
+                  "sensor_type": "i2c",
+                  "__v": 0,
+                  "display_name": "MPL3115A2",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:38.430Z",
+                    "value": [
+                      98.11,
+                      24
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "barometer",
+                      "unit": "kPa",
+                      "_id": "5923f41954ec2e1358705424"
+                    },
+                    {
+                      "desc": "temperature",
+                      "unit": "°C",
+                      "_id": "5923f41954ec2e1358705423"
+                    }
+                  ]
+                },
+                {
+                  "_id": "592306b801135b43f636b41c",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "neo-gw",
+                  "sensor_id": "1-0040",
+                  "sensor_type": "i2c",
+                  "__v": 0,
+                  "display_name": "SI7006A20",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:38.045Z",
+                    "value": [
+                      37.21,
+                      26.39
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "humidity",
+                      "unit": "% hum",
+                      "_id": "5923f41954ec2e1358705421"
+                    },
+                    {
+                      "desc": "temperature",
+                      "unit": "°C",
+                      "_id": "5923f41954ec2e1358705420"
+                    }
+                  ]
+                },
+                {
+                  "_id": "592306b801135b43f636b41d",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "neo-gw",
+                  "sensor_id": "1-0029",
+                  "sensor_type": "i2c",
+                  "__v": 0,
+                  "display_name": "TSL2561",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:38.059Z",
+                    "value": [
+                      5899
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "light",
+                      "unit": "lux",
+                      "_id": "5923f41954ec2e135870541f"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "interval_time": 30000,
+              "address": "247189cd0c06",
+              "product_type": "blu",
+              "display_name": "247189cd0c06",
+              "id": "247189cd0c06",
+              "_id": "591eca7fa075982d97eaae7e",
+              "actuators": [],
+              "sensors": [
+                {
+                  "_id": "591eca7f5c24c0f2bd8d9360",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "247189cd0c06",
+                  "sensor_id": "0xc065",
+                  "sensor_type": "i2c",
+                  "__v": 0,
+                  "display_name": "temperature",
+                  "last_read": {
+                    "last_update": "2017-05-19T12:25:36.381Z",
+                    "value": [
+                      27
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "temperature",
+                      "unit": "°C",
+                      "_id": "591eca7fa075982d97eaae7d"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "interval_time": 30000,
+              "address": "247189cd0706",
+              "product_type": "blu",
+              "display_name": "247189cd0706",
+              "id": "247189cd0706",
+              "_id": "5922d504f364012790c03359",
+              "actuators": [],
+              "sensors": [
+                {
+                  "_id": "591ac458a3e3875cfa61cc68",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "247189cd0706",
+                  "sensor_id": "0xDD58",
+                  "sensor_type": "internal",
+                  "__v": 0,
+                  "display_name": "magnetometer",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:22.255Z",
+                    "value": [
+                      -232.6,
+                      -94.4,
+                      -131.2
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "x",
+                      "unit": "uT",
+                      "_id": "5923f41a54ec2e1358705436"
+                    },
+                    {
+                      "desc": "y",
+                      "unit": "uT",
+                      "_id": "5923f41a54ec2e1358705435"
+                    },
+                    {
+                      "desc": "z",
+                      "unit": "uT",
+                      "_id": "5923f41a54ec2e1358705434"
+                    }
+                  ]
+                },
+                {
+                  "_id": "591ac458a3e3875cfa61cc66",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "247189cd0706",
+                  "sensor_id": "0x5A60",
+                  "sensor_type": "internal",
+                  "__v": 0,
+                  "display_name": "gyroscope",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:18.809Z",
+                    "value": [
+                      -0.0305,
+                      0.0534,
+                      -0.0839
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "x",
+                      "unit": "rad/s",
+                      "_id": "5923f41a54ec2e1358705439"
+                    },
+                    {
+                      "desc": "y",
+                      "unit": "rad/s",
+                      "_id": "5923f41a54ec2e1358705438"
+                    },
+                    {
+                      "desc": "z",
+                      "unit": "rad/s",
+                      "_id": "5923f41a54ec2e1358705437"
+                    }
+                  ]
+                },
+                {
+                  "_id": "591ac458a3e3875cfa61cc67",
+                  "gateway": "2a0c30d9d48b8640b5a056ff97f76f4063896d30fd9dde7d9fe7ce53b21d3983",
+                  "node": "247189cd0706",
+                  "sensor_id": "0x8CEB",
+                  "sensor_type": "internal",
+                  "__v": 0,
+                  "display_name": "accelerometer",
+                  "last_read": {
+                    "last_update": "2017-05-23T09:09:22.287Z",
+                    "value": [
+                      -0.0039,
+                      -0.0391,
+                      -0.9868
+                    ]
+                  },
+                  "value_type": [
+                    {
+                      "desc": "x",
+                      "unit": "m/s^2",
+                      "_id": "5923f41a54ec2e1358705433"
+                    },
+                    {
+                      "desc": "y",
+                      "unit": "m/s^2",
+                      "_id": "5923f41a54ec2e1358705432"
+                    },
+                    {
+                      "desc": "z",
+                      "unit": "m/s^2",
+                      "_id": "5923f41a54ec2e1358705431"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "geo": {
+            "coordinates": [
+              0,
+              0
+            ],
+            "type": "Point"
+          },
+          "domains": [
+            "google.com",
+            "udoo.org",
+            "192.168.1.128:6969"
+          ],
+          "connected": false
+        }
+      ]
+    }
+  ]
+}
